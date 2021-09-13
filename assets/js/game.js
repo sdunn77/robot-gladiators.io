@@ -19,9 +19,10 @@ console.log(enemyNames[1]);
 console.log(enemyNames[2]);
 console.log(enemyNames.length);
 
+window.alert("Welcome to Robot Gladiators!");
 
 var fight = function(enemyName) {
-    window.alert("Welcome to Robot Gladiators!");
+    
 
     var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose. ");
 
@@ -82,4 +83,4 @@ var fight = function(enemyName) {
         fight(enemyNames[i]);
     }
 }
-
+fight()

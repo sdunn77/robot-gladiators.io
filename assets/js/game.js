@@ -3,9 +3,7 @@
 //    * Fight all enemy-robots
 //    * Defeat each enemy-robot
 // "LOSE" - Player robot's health is zero or less
-var button = document.querySelector(".start-game-button")
-console.log(button)
-button.addEventListener("click", fight)
+
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
@@ -85,4 +83,4 @@ function fight(enemyName) {
         fight(enemyNames[i]);
     }
 }
-
+fight()
